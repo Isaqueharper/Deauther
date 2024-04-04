@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="inddex.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+          <img id="header-img" src="logo-01.png" alt="company logo" />
+        </div>
+        <nav id="nav-bar">
+          <ul id="links">
+            <li>
+              <a class="nav-link" href="#overview-s">ESPhishing</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#tech-s">Deauther</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#how-s">Raspberry</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing-s">//</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <div id="hero" class="content">
+          <h1>ESP8266 Deauther</h1>
+          <p>
+            Um "deauther" construído com um ESP8266 é um dispositivo projetado para realizar ataques de desautenticação em redes Wi-Fi. Os ataques de desautenticação essencialmente forçam dispositivos conectados a se desconectarem de uma rede Wi-Fi enviando pacotes de desautenticação. Isso pode ser usado para vários fins, como testar a segurança da rede ou, infelizmente, para propósitos maliciosos, como interromper o acesso à rede.</p>
+      
+          <img src="esp8266.png" class="responsive" alt="arduion uno picture">
+      
+          <form id="form" action="https://www.linkedin.com/in/isaque-goncalves-779306240/">
+            <input id="email" type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+            <input id="submit" type="submit" class="button" value="Obtenha mais Informaçoes">
+          </form>
+        </div>
+      
+        <div id="overview" class="content">
+          <h2 id="overview-s">Entendendo o Deauther</h2>
+          <p>Para criar um "deauther" usando um ESP8266, você geralmente precisa de:<br>
+            <br>
+            Placa de desenvolvimento ESP8266: O ESP8266 é um microchip Wi-Fi de baixo custo com pilha TCP/IP completa e capacidade de microcontrolador.<br>
+            <br>
+            Software: Você precisaria programar o ESP8266 com firmware personalizado capaz de enviar pacotes de desautenticação. Firmware popular para esse fim inclui ESP8266 Deauther por Spacehuhn ou Wi-PWN.<br>
+            <br>
+            Fonte de energia: Dependendo da sua configuração, você pode precisar de uma fonte de energia, seja por USB ou por bateria, para alimentar o ESP8266.<br>
+            <br>
+            Antena: Embora nem sempre seja necessário, uma antena externa pode ajudar a melhorar o alcance e a eficácia dos ataques de desautenticação.<br>
+            <br>
+            O processo geralmente envolve:<br>
+            <br>
+            Flashear o ESP8266 com o firmware personalizado usando ferramentas como Arduino IDE ou NodeMCU Flasher.
+            Configurar o firmware com as configurações desejadas, como a rede Wi-Fi alvo e o número de pacotes de desautenticação a enviar.
+            Implante o dispositivo dentro do alcance da rede alvo.</p>
+        </div>
+      
+        <div id="tech" class="content">
+          <h2 id="tech-s">Tech Specs</h2>
+          <table>
+            <tr>
+              <td>Microcontrolador</td>
+              <td><a  target="_blank"> ESP8266</a></td>
+            </tr>
+            <tr>
+              <td>Tensão de operação</td>
+              <td>3.3V</td>
+            </tr>
+            <tr>
+              <td>Tensão de entrada recomendada:</td>
+              <td>3.3V</td>
+            </tr>
+            <tr>
+              <td>Tensão de entrada limite:</td>
+              <td>3.6V</td>
+            </tr>
+            <tr>
+              <td>Pinos de E/S digital:</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Pinos de E/S digital PWM:</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Pinos de entrada analógica:</td>
+              <td>1 (pode ser usado como entrada digital também)</td>
+            </tr>
+            <tr>
+              <td>Corrente contínua por pino de E/S:</td>
+              <td>12mA</td>
+            </tr>
+            <tr>
+              <td>Corrente contínua máxima para o módulo:</td>
+              <td>170mA</td>
+            </tr>
+            <tr>
+              <td>Memória flash:</td>
+              <td>4MB (32Mb)</td>
+            </tr>
+            <tr>
+              <td>SRAM:</td>
+              <td>80KB</td>
+            </tr>
+            <tr>
+              <td>EEPROM:</td>
+              <td>512 bytes</td>
+            </tr>
+            <tr>
+              <td>Velocidade do clock:</td>
+              <td>80MHz</td>
+            </tr>
+            <tr>
+              <td>Pino de LED embutido:</td>
+              <td>GPIO2</td>
+            </tr>
+            <tr>
+              <td>Comprimento:</td>
+              <td>Varia dependendo do formato do módulo, geralmente em torno de 24mm</td>
+            </tr>
+            <tr>
+              <td>Largura:</td>
+              <td>Varia dependendo do formato do módulo, geralmente em torno de 16mm</td>
+            </tr>
+            <tr>
+              <td>Peso:</td>
+              <td>Varia dependendo do formato do módulo, geralmente em torno de 1-2 gramas</td>
+            </tr>
+          </table>
+        </div>
+      
+        <div id="how" class="content">
+          <h2 id="how-s">video explicativo de como funciona o sistema </h2>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/28ji6G5hTRw" frameborder="0" allowfullscreen></iframe>
+          <p>Confira o repositório abaixo, onde regularmente realizamos atualizações e adicionamos novos códigos.</p>
+          
+        </div>
+    
+    <div class="git"><a href="https://github.com/Isaqueharper"> <img src="git-01.png" alt="" width="30%" > </a>  </div>    
+    
+       
+</body>
+</html>
